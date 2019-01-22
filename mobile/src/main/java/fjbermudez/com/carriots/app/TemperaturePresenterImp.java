@@ -39,6 +39,7 @@ public class TemperaturePresenterImp implements TemperaturePresenter {
         data.setBoilerOn(true);
         data.setTempConsigna(NumberUtils.getDoubleAmountFromString(tempConsigna));
         data.setTempRoom(22);
+        sentTemperatureRequest.setData(data);
         mUseCaseHandler.execute(setTemperatureUseCase, new SetTemperatureUseCase.RequestValues(sentTemperatureRequest), new UseCase.UseCaseCallback<SetTemperatureUseCase.ResponseValue>() {
             @Override
             public void onSuccess(SetTemperatureUseCase.ResponseValue response) {

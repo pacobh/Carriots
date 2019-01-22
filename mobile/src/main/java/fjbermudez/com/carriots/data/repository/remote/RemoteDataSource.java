@@ -114,10 +114,7 @@ public class RemoteDataSource implements DataSource {
 
     @Override
     public void setTemperature(SentTemperatureRequest sentTemperatureRequest, final SentTemperatureCallback temperatureSentCallback) {
-        Call<SetTermostatoResponse> setTermostatoResponseCall = apiServices.setTemperature(sentTemperatureRequest.getProtocol(),
-                sentTemperatureRequest.getChecksum(),sentTemperatureRequest.getDevice(),
-                String.valueOf(Calendar.getInstance().getTimeInMillis()),
-                sentTemperatureRequest.getData());
+        Call<SetTermostatoResponse> setTermostatoResponseCall = apiServices.setTemperature(sentTemperatureRequest);
         try {
             setTermostatoResponseCall.enqueue(new Callback<SetTermostatoResponse>() {
                 @Override
