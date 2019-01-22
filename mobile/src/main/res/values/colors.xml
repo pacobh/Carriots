@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="grey_background">#7a7a7a</color>
+    <color name="warm_grey">#787878</color>
+
+    <color name="orange">#F5A623</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_menu">#5cc600</color>
+
+    <color name="black">#000000</color>
+    <color name="green_loading">#405cc600</color>
+    <color name="green_device">#93D16E</color>>
+
+</resources>

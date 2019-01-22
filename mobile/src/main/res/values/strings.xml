@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Carriots</string>
+    <string name="connectivity_no_network_error_description">o estás conectado a internet, por favor comprueba tu conexión y vuelve a intentarlo.</string>
+    <string name="accept">Aceptar</string>
+    <string name="error_title">Ups! Ha ocurrido algo inesperado</string>
+    <string name="text_connecting">Conectando</string>
+    <string name="sent">Enviar</string>
+    <string name="grade">º C</string>
+    <string name="text_consigna">Temperatura Consigna</string>
+</resources>
